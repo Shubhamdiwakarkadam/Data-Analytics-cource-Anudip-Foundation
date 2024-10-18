@@ -9,22 +9,22 @@ Objective: To analyze and understand the transportation patterns, pricing dynami
 
 ## Key Questions:
 
-# Service Utilization Analysis:
+ Service Utilization Analysis:
 
 1. What are the most and least popular Rapido services in Bangalore?
 2. How does the distribution of ride types (bike, bike lite, cab economy, auto, parcel) vary across different areas of Bangalore?
    
-# Pricing and Ride Economics:
+ Pricing and Ride Economics:
 1. What is the average ride duration and distance covered for each service type?
 2. How do the base fares and additional charges vary across different services?
 3. What factors impact the total fare, and how do they differ for each ride type?
    
-Ride Cancellations:
+ Ride Cancellations:
 1. What is the percentage of ride cancellations for each service type?
 2. Are there specific times of day or locations where ride cancellations are more frequent?
 3. What trends can be identified that might help reduce ride cancellations?
    
-# Payment Method Preferences:
+  Payment Method Preferences:
 1. What are the most commonly used payment methods for completed rides?
 2. How does the choice of payment method vary between different types of services?
 3. Are there any correlations between payment methods and the likelihood of ride completion or cancellation?
@@ -41,8 +41,6 @@ This problem statement aims to leverage the dataset to generate actionable insig
 Dataset Title
 Bangalore Rapido Ride Services Dataset [Dataset Link](https://www.kaggle.com/datasets/vishaldeoprasad/bangalore-rapido-ride-services-dataset)
 
-
-# Subtitle
 A Comprehensive Analysis of Ride Services in Bangalore
 
 # Overview
