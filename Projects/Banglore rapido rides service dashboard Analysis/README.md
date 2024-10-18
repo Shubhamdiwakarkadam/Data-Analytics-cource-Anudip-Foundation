@@ -38,7 +38,7 @@ This problem statement aims to leverage the dataset to generate actionable insig
 
 
 # About Dataset
-Dataset Title
+Dataset Title:
 Bangalore Rapido Ride Services Dataset [Dataset Link](https://www.kaggle.com/datasets/vishaldeoprasad/bangalore-rapido-ride-services-dataset)
 
 A Comprehensive Analysis of Ride Services in Bangalore
@@ -46,10 +46,10 @@ A Comprehensive Analysis of Ride Services in Bangalore
 ## Overview
 This dataset contains comprehensive records of ride services offered by Rapido in Bangalore over a two-month period. It includes various service types such as bike, bike lite, cab economy, auto, and parcel services. Each record provides extensive details about the ride, including the journey from a source to a destination, duration, distance, charges, and payment methods. This dataset is ideal for analyzing transportation patterns, service utilization, and ride economics in Bangalore.
 
-# Dataset Structure
+## Dataset Structure
 The dataset is organized in a tabular format with 50,000 rows and 13 columns. Each row represents a unique ride, and the columns provide detailed information about each ride.
 
-# Column Descriptions
+## Column Descriptions
 services
            Description: Type of ride service offered by Rapido.
            Values:
