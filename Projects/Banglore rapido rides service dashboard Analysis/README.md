@@ -1,4 +1,4 @@
-# Banglore rapido rides service dashboard Analysis
+# Bangalore rapido rides service dashboard Analysis
 
 ### Dashboard Link : [Dashboard](https://app.powerbi.com/reportEmbed?reportId=cb79784e-cf72-4064-8b0a-c1c6fed4cfc6&autoAuth=true&embeddedDemo=true)
 
