@@ -152,8 +152,8 @@ Overall, this dataset is a valuable resource for data analysts, transportation p
 For any questions or inquiries regarding this dataset, please reach out to:
 
 - **Name:** Shubham Kadam
-- **Email:**[Email](Shubhamdiwakarkadam@gmail.com)
-- **LinkedIn:** [LinkedIn](www.linkedin.com/in/shubham-kadam-236478233)
+- **Email:**[Shubhamdiwakarkadam@gmail.com](Shubhamdiwakarkadam@gmail.com)
+- **LinkedIn:** [ShubhamKadam](www.linkedin.com/in/shubham-kadam-236478233)
 
 Feel free to connect for any suggestions, collaborations, or discussions!
 
