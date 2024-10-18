@@ -50,63 +50,80 @@ This dataset contains comprehensive records of ride services offered by Rapido i
 The dataset is organized in a tabular format with 50,000 rows and 13 columns. Each row represents a unique ride, and the columns provide detailed information about each ride.
 
 ## Column Descriptions
-services
-           Description: Type of ride service offered by Rapido.
-           Values:
-           "bike": Standard bike ride service.
-           "bike lite": Economical bike ride service.
-           "cab economy": Standard cab ride service.
-           "auto": Auto-rickshaw ride service.
-           "parcel": Service for delivering parcels.
-           Distribution:
-           30% bike
-           10% bike lite
-           20% cab economy
-           25% auto
-           15% parcel
-           
-date
-           Description: The date on which the ride was initiated.
-           Values: Dates ranging from 60 days prior to the current date, covering approximately two months.
-time
-           Description: The time of day when the ride started.
-           Values: Random times throughout the day, formatted as HH:MM:SS.
-ride_status
 
-           Description: The completion status of the ride.
-Values:
-           "completed": The ride was successfully completed.
-           "cancelled": The ride was cancelled.
-           Distribution:
-           90% completed
-           10% cancelled
-source
-           Description: The starting location of the ride.
-           Values: Combinations of common Bangalore area names and suffixes (e.g., "Koramangala 1st Stage").
-destination
-           Description: The ending location of the ride.
-           Values: Combinations of common Bangalore area names and suffixes, similar to the source.
-duration
-           Description: Duration of the ride in minutes.
-           Values: Integer values ranging from 10 to 120 minutes.
-ride_id
-           Description: A unique identifier for each ride.
-           Values: A string starting with "RD" followed by 16 random digits (e.g., "RD1234567890123456").
-distance
-           Description: The distance covered during the ride, in kilometers.
-           Values: Floating-point numbers ranging from 1 to 50, rounded to two decimal places.
-ride_charge
-           Description: The base fare charged for the ride.
-           Values: Floating-point numbers ranging from 50 to 1000, rounded to two decimal places. Null for cancelled rides.
-misc_charge
-           Description: Additional charges for the ride, such as tolls or surcharges.
-           Values: Floating-point numbers ranging from 0 to 50, rounded to two decimal places. Null for cancelled rides.
-total_fare
-           Description: The total fare for the ride, including base fare and miscellaneous charges.
-           Values: Calculated as the sum of ride_charge and misc_charge for completed rides. Null for cancelled rides.
-payment_method
-           Description: The method of payment used for the ride.
-           Values:
+### services
+- **Description**: Type of ride service offered by Rapido.
+- **Values**:
+  - `"bike"`: Standard bike ride service.
+  - `"bike lite"`: Economical bike ride service.
+  - `"cab economy"`: Standard cab ride service.
+  - `"auto"`: Auto-rickshaw ride service.
+  - `"parcel"`: Service for delivering parcels.
+- **Distribution**:
+  - 30% bike
+  - 10% bike lite
+  - 20% cab economy
+  - 25% auto
+  - 15% parcel
+
+### date
+- **Description**: The date on which the ride was initiated.
+- **Values**: Dates ranging from 60 days prior to the current date, covering approximately two months.
+
+### time
+- **Description**: The time of day when the ride started.
+- **Values**: Random times throughout the day, formatted as `HH:MM:SS`.
+
+### ride_status
+- **Description**: The completion status of the ride.
+- **Values**:
+  - `"completed"`: The ride was successfully completed.
+  - `"cancelled"`: The ride was cancelled.
+- **Distribution**:
+  - 90% completed
+  - 10% cancelled
+
+### source
+- **Description**: The starting location of the ride.
+- **Values**: Combinations of common Bangalore area names and suffixes (e.g., "Koramangala 1st Stage").
+
+### destination
+- **Description**: The ending location of the ride.
+- **Values**: Combinations of common Bangalore area names and suffixes, similar to the source.
+
+### duration
+- **Description**: Duration of the ride in minutes.
+- **Values**: Integer values ranging from 10 to 120 minutes.
+
+### ride_id
+- **Description**: A unique identifier for each ride.
+- **Values**: A string starting with "RD" followed by 16 random digits (e.g., "RD1234567890123456").
+
+### distance
+- **Description**: The distance covered during the ride, in kilometers.
+- **Values**: Floating-point numbers ranging from 1 to 50, rounded to two decimal places.
+
+### ride_charge
+- **Description**: The base fare charged for the ride.
+- **Values**: Floating-point numbers ranging from 50 to 1000, rounded to two decimal places. Null for cancelled rides.
+
+### misc_charge
+- **Description**: Additional charges for the ride, such as tolls or surcharges.
+- **Values**: Floating-point numbers ranging from 0 to 50, rounded to two decimal places. Null for cancelled rides.
+
+### total_fare
+- **Description**: The total fare for the ride, including base fare and miscellaneous charges.
+- **Values**: Calculated as the sum of `ride_charge` and `misc_charge` for completed rides. Null for cancelled rides.
+
+### payment_method
+- **Description**: The method of payment used for the ride.
+- **Values**:
+  - "Amazon Pay"
+  - "QR scan"
+  - "GPay"
+  - "Paytm"
+- **Note**: Null for cancelled rides.
+
            "Amazon Pay"
            "QR scan"
            "GPay"
