@@ -37,13 +37,13 @@ Analysis of payment trends to help Rapido streamline payment processes and cater
 This problem statement aims to leverage the dataset to generate actionable insights that can support Rapido's strategic decisions in Bangalore's competitive ride-hailing market.
 
 
-## About Dataset
+# About Dataset
 Dataset Title
 Bangalore Rapido Ride Services Dataset [Dataset Link](https://www.kaggle.com/datasets/vishaldeoprasad/bangalore-rapido-ride-services-dataset)
 
 A Comprehensive Analysis of Ride Services in Bangalore
 
-# Overview
+## Overview
 This dataset contains comprehensive records of ride services offered by Rapido in Bangalore over a two-month period. It includes various service types such as bike, bike lite, cab economy, auto, and parcel services. Each record provides extensive details about the ride, including the journey from a source to a destination, duration, distance, charges, and payment methods. This dataset is ideal for analyzing transportation patterns, service utilization, and ride economics in Bangalore.
 
 # Dataset Structure
