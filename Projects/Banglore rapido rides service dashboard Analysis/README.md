@@ -123,11 +123,13 @@ The dataset is organized in a tabular format with 50,000 rows and 13 columns. Ea
   - "GPay"
   - "Paytm"
 - **Note**: Null for cancelled rides.
-
            "Amazon Pay"
            "QR scan"
            "GPay"
            "Paytm"
 Note: Null for cancelled rides.
+
+## Dashboard SnapShot:
+![Screenshot of the Rapido Ride Services Dashboard](Images/dashboard.png)
 
 
